@@ -11,7 +11,7 @@
     REAL_VIDEO_ID: '',
     YOUTUBE_URL: 'https://www.youtube.com/@balancepro',
     // อีเมลรับข้อความจากฟอร์มติดต่อ (ใช้บริการ FormSubmit.co)
-    CONTACT_EMAIL: 'info@smartaccount.co.th',
+    CONTACT_EMAIL: 'info@balancepro.co.th',
     LINE_URL: 'https://line.me/R/ti/p/@balancepro'
   };
 
@@ -232,7 +232,7 @@
 
   /* ============ Cookie consent banner (PDPA) ============ */
   (function () {
-    var KEY = 'smartaccount_cookie_consent';
+    var KEY = 'balancepro_cookie_consent';
     try { if (localStorage.getItem(KEY)) return; } catch (e) { return; }
     var pre = location.pathname.indexOf('/blog/') !== -1 ? '../' : '';
     var css = '#cookieBar{position:fixed;left:0;right:0;bottom:0;z-index:400;background:#fff;border-top:3px solid var(--navy,#1e3a8a);box-shadow:0 -10px 30px rgba(0,0,0,.15);padding:14px 20px;font-size:.9rem;color:var(--ink,#16233f);line-height:1.7;display:none;align-items:center;gap:16px;flex-wrap:wrap;justify-content:space-between}#cookieBar.show{display:flex}#cookieBar .cb-text{flex:1;min-width:260px;max-width:780px}#cookieBar a{color:var(--navy,#1e3a8a);font-weight:700;text-decoration:underline}#cookieBar .cb-btns{display:flex;gap:10px;flex-wrap:wrap;flex-shrink:0}@media(max-width:640px){#cookieBar{flex-direction:column;align-items:stretch;text-align:center}#cookieBar .cb-btns{justify-content:center}}';
