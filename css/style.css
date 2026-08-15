@@ -575,17 +575,6 @@ section{position:relative}
 }
 @media (max-width:480px){.deco-grid{gap:14px}}
 
-/* ============ แถบรูปกราฟฟิกเลื่อนซ้ายอัตโนมัติ ============ */
-.hero-strip{overflow:hidden;padding:26px 0 34px;background:var(--bg)}
-.strip-track{display:flex;width:max-content;animation:stripMove 42s linear infinite;will-change:transform}
-.hero-strip:hover .strip-track{animation-play-state:paused}
-.strip-set{display:flex;gap:18px;padding-right:18px}
-.strip-item{width:280px;height:190px;border-radius:16px;overflow:hidden;box-shadow:0 8px 22px rgba(30,58,138,.12);flex-shrink:0;background:#fff;margin:0}
-.strip-item img{width:100%;height:100%;object-fit:cover;display:block}
-@keyframes stripMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (max-width:600px){.strip-item{width:220px;height:150px}}
-@media (prefers-reduced-motion: reduce){.strip-track{animation:none}}
-
 /* ============ สไลด์โชว์รูปบนสุด (กระพริบสลับรูป) ============ */
 .hero-slideshow img.slide{animation:heroCycle 24s linear infinite}
 .hero-slideshow img.slide:nth-of-type(2){animation-delay:6s}
