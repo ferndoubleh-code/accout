@@ -9,10 +9,10 @@
     // ใส่ Video ID ของวิดีโอแนะนำสำนักงาน (จาก YouTube เช่น "dQw4w9WgXcQ")
     // ถ้าเว้นว่าง กดปุ่มเล่นจะเปิดช่อง YouTube ของสำนักงานแทน
     REAL_VIDEO_ID: '',
-    YOUTUBE_URL: 'https://www.youtube.com/@smartaccount',
+    YOUTUBE_URL: 'https://www.youtube.com/@balancepro',
     // อีเมลรับข้อความจากฟอร์มติดต่อ (ใช้บริการ FormSubmit.co)
     CONTACT_EMAIL: 'info@smartaccount.co.th',
-    LINE_URL: 'https://line.me/R/ti/p/@smartaccount'
+    LINE_URL: 'https://line.me/R/ti/p/@balancepro'
   };
 
   /* ============ Header shadow ============ */
@@ -207,7 +207,7 @@
       svc: 'เรามีบริการครบวงจรครับ 📋<br>• รับทำบัญชี เริ่มต้น 2,500 บาท/เดือน<br>• จดทะเบียนบริษัท / DBD<br>• ตรวจสอบบัญชี (Audit)<br>• อบรม CPD & หลักสูตรบัญชีภาษี<br><a class="m-link" href="' + pre + 'services.html">ดูบริการทั้งหมด →</a>',
       price: 'รับทำบัญชีเริ่มต้นเพียง <b>2,500 บาท/เดือน</b> รวมโปรแกรมบัญชีออนไลน์ฟรี ไม่มีค่าใช้จ่ายแอบแฝงครับ 💰<br><a class="m-link" href="' + pre + 'index.html#pricing">ดูรายละเอียดราคา →</a>',
       promo: '🎁 โปรโมชันเดือนนี้: <b>เดือนแรกฟรี 100%</b> + โปรแกรมบัญชีฟรี + คอร์สเรียนออนไลน์ 30+ ชั่วโมง ฟรี!<br><a class="m-link" href="' + pre + 'index.html">ดูโปรโมชันทั้งหมด →</a>',
-      contact: 'สะดวกช่องทางไหนครับ? 📞 โทร <b>081-994-9980</b> หรือแอดไลน์ <b>@smartaccount</b> ทีมงานตอบกลับภายใน 1 ชั่วโมงในวันทำการครับ'
+      contact: 'สะดวกช่องทางไหนครับ? 📞 โทร <b>081-994-9980</b> หรือแอดไลน์ <b>@balancepro</b> ทีมงานตอบกลับภายใน 1 ชั่วโมงในวันทำการครับ'
     };
     function botReply(q) {
       var typing = document.createElement('div'); typing.className = 'cp-typing'; typing.innerHTML = '<i></i><i></i><i></i>';

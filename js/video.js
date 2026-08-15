@@ -26,7 +26,7 @@
     { kind: 'img', dur: 7, src: 'images/v2-team.webp', kb: 'in',
       cap: 'ทีมงานบาลานซ์โปร คอนซัลติ้ง พร้อมดูแลบัญชีและภาษีให้ธุรกิจคุณ' },
     { kind: 'card', dur: 10,
-      html: '<div class="svp-card-in"><h2>ให้บาลานซ์โปร คอนซัลติ้งดูแลบัญชีและภาษีของคุณ</h2><p>โทร 081-994-9980 &nbsp;\u00B7&nbsp; Line : @smartaccount</p><div class="svp-kicker">ปรึกษาฟรี ไม่มีค่าใช้จ่าย</div></div>' }
+      html: '<div class="svp-card-in"><h2>ให้บาลานซ์โปร คอนซัลติ้งดูแลบัญชีและภาษีของคุณ</h2><p>โทร 081-994-9980 &nbsp;\u00B7&nbsp; Line : @balancepro</p><div class="svp-kicker">ปรึกษาฟรี ไม่มีค่าใช้จ่าย</div></div>' }
   ];
 
   var root, stage, layers, caption, progress, tCur, tTot, btnPlay, btnMute, btnFull, btnClose;
