@@ -19,11 +19,11 @@
 
 /* title cards */
 .svp-card{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;background:radial-gradient(120% 130% at 50% 20%,#1e3a8a 0%,#0d2142 55%,#050d1e 100%);padding:0 8%}
-.svp-card::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 55% at 82% 12%,rgba(125,211,252,.16),transparent 70%),radial-gradient(50% 45% at 12% 88%,rgba(14,165,233,.12),transparent 70%)}
+.svp-card::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 55% at 82% 12%,rgba(201,168,106,.16),transparent 70%),radial-gradient(50% 45% at 12% 88%,rgba(29,78,216,.12),transparent 70%)}
 .svp-card-in{position:relative;animation:svpCardIn 1.2s ease both}
-.svp-card-in .svp-kicker{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:3px;color:#7dd3fc;border:1px solid rgba(125,211,252,.45);border-radius:999px;padding:7px 20px;margin-bottom:18px;text-transform:uppercase}
+.svp-card-in .svp-kicker{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:3px;color:#c9a86a;border:1px solid rgba(201,168,106,.45);border-radius:999px;padding:7px 20px;margin-bottom:18px;text-transform:uppercase}
 .svp-card-in h2{font-family:var(--font-display);font-size:clamp(1.6rem,4.2vw,3rem);font-weight:800;color:#fff;line-height:1.35;text-shadow:0 4px 24px rgba(0,0,0,.4)}
-.svp-card-in p{margin-top:14px;font-size:clamp(.95rem,1.6vw,1.25rem);color:#dbeafe;font-weight:500}
+.svp-card-in p{margin-top:14px;font-size:clamp(.95rem,1.6vw,1.25rem);color:#c9d6ea;font-weight:500}
 @keyframes svpCardIn{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
 
 /* caption */
@@ -31,17 +31,17 @@
 
 /* progress + controls */
 .svp-bar{position:absolute;left:18px;right:18px;bottom:52px;height:5px;background:rgba(255,255,255,.22);border-radius:99px;cursor:pointer;z-index:5}
-.svp-fill{height:100%;width:0;background:linear-gradient(90deg,#0ea5e9,#7dd3fc);border-radius:99px;position:relative}
-.svp-fill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);width:13px;height:13px;border-radius:50%;background:#7dd3fc;box-shadow:0 0 0 4px rgba(125,211,252,.25)}
+.svp-fill{height:100%;width:0;background:linear-gradient(90deg,#2563eb,#c9a86a);border-radius:99px;position:relative}
+.svp-fill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);width:13px;height:13px;border-radius:50%;background:#c9a86a;box-shadow:0 0 0 4px rgba(201,168,106,.25)}
 .svp-ctrl{position:absolute;left:0;right:0;bottom:0;height:48px;display:flex;align-items:center;gap:6px;padding:0 14px;background:linear-gradient(transparent,rgba(0,0,0,.72));z-index:5;cursor:default}
 .svp-btn{width:36px;height:36px;border:0;border-radius:9px;background:transparent;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .2s,transform .15s}
 .svp-btn:hover{background:rgba(255,255,255,.14);transform:scale(1.06)}
-.svp-time{font-size:.82rem;color:#dbeafe;font-variant-numeric:tabular-nums;margin-left:4px}
+.svp-time{font-size:.82rem;color:#c9d6ea;font-variant-numeric:tabular-nums;margin-left:4px}
 .svp-time b{color:#fff}
 .svp-sp{flex:1}
 
 /* play hint when paused */
-#svp:not(.playing) .svp-stage::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:74px;height:74px;border-radius:50%;background:rgba(14,165,233,.92) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>') center/30px no-repeat;box-shadow:0 10px 30px rgba(0,0,0,.45);pointer-events:none;animation:svpPulse 1.8s ease infinite}
+#svp:not(.playing) .svp-stage::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:74px;height:74px;border-radius:50%;background:rgba(29,78,216,.92) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>') center/30px no-repeat;box-shadow:0 10px 30px rgba(0,0,0,.45);pointer-events:none;animation:svpPulse 1.8s ease infinite}
 #svp.ended .svp-stage::after{display:none}
 @keyframes svpPulse{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.08)}}
 
