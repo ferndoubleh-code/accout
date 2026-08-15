@@ -239,6 +239,10 @@ section{position:relative}
 .inc-col.no li svg{color:var(--red)}
 @media(max-width:640px){.included-grid{grid-template-columns:1fr}}
 
+/* closing text banner */
+.closing-note{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-3) 100%);color:#fff;border-radius:16px;padding:30px 32px;text-align:center;font-family:var(--font-display);font-size:clamp(1.15rem,2.2vw,1.5rem);font-weight:800;line-height:1.6;margin:20px 0;box-shadow:var(--shadow-md);position:relative;overflow:hidden}
+.closing-note::after{content:"";position:absolute;right:-50px;top:-50px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(125,211,252,.25),transparent 70%)}
+
 /* summary CTA */
 .summary-cta{margin-top:26px;background:var(--bg-2);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:18px;align-items:center;text-align:center}
 .summary-cta .scta-title{font-family:var(--font-display);font-size:1.15rem;font-weight:700;color:var(--navy)}
