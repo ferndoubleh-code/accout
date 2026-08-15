@@ -6,9 +6,9 @@
 
   var SCENES = [
     { kind: 'card', dur: 5,
-      html: '<div class="svp-card-in"><div class="svp-kicker">SMART ACCOUNTING OFFICE</div><h2>สำนักงานบัญชีสมาร์ทบัญชี</h2><p>วิดีโอแนะนำสำนักงาน</p></div>' },
+      html: '<div class="svp-card-in"><div class="svp-kicker">BALANCEPRO CONSULTING</div><h2>สำนักงานบัญชีแบแลนซ์โปร คอนซัลติ้ง</h2><p>วิดีโอแนะนำสำนักงาน</p></div>' },
     { kind: 'img', dur: 7, src: 'images/v2-building.webp', kb: 'in',
-      cap: 'สำนักงานบัญชีสมาร์ทบัญชี พร้อมให้บริการธุรกิจทุกประเภท' },
+      cap: 'สำนักงานบัญชีแบแลนซ์โปร คอนซัลติ้ง พร้อมให้บริการธุรกิจทุกประเภท' },
     { kind: 'img', dur: 8, src: 'images/v2-office-wide.webp', kb: 'pan',
       cap: 'บรรยากาศการทำงานภายในสำนักงาน ทีมงานพร้อมดูแลธุรกิจของคุณ' },
     { kind: 'img', dur: 7, src: 'images/v2-meeting.webp', kb: 'in',
@@ -24,9 +24,9 @@
     { kind: 'img', dur: 7, src: 'images/v2-handshake.webp', kb: 'pan',
       cap: 'เราเป็น Business Partner ที่เติบโตไปด้วยกันกับธุรกิจของคุณ' },
     { kind: 'img', dur: 7, src: 'images/v2-team.webp', kb: 'in',
-      cap: 'ทีมงานสมาร์ทบัญชี พร้อมดูแลบัญชีและภาษีให้ธุรกิจคุณ' },
+      cap: 'ทีมงานแบแลนซ์โปร คอนซัลติ้ง พร้อมดูแลบัญชีและภาษีให้ธุรกิจคุณ' },
     { kind: 'card', dur: 10,
-      html: '<div class="svp-card-in"><h2>ให้สมาร์ทบัญชีดูแลบัญชีและภาษีของคุณ</h2><p>โทร 081-994-9980 &nbsp;\u00B7&nbsp; Line : @smartaccount</p><div class="svp-kicker">ปรึกษาฟรี ไม่มีค่าใช้จ่าย</div></div>' }
+      html: '<div class="svp-card-in"><h2>ให้แบแลนซ์โปร คอนซัลติ้งดูแลบัญชีและภาษีของคุณ</h2><p>โทร 081-994-9980 &nbsp;\u00B7&nbsp; Line : @smartaccount</p><div class="svp-kicker">ปรึกษาฟรี ไม่มีค่าใช้จ่าย</div></div>' }
   ];
 
   var root, stage, layers, caption, progress, tCur, tTot, btnPlay, btnMute, btnFull, btnClose;
