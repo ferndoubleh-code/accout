@@ -1,5 +1,5 @@
 /* ============================================================
-   แบแลนซ์โปร คอนซัลติ้ง สำนักงานบัญชี — Shared Scripts
+   บาลานซ์โปร คอนซัลติ้ง สำนักงานบัญชี — Shared Scripts
    ============================================================ */
 (function () {
   'use strict';
@@ -155,7 +155,7 @@
       btn.disabled = true;
       btn.textContent = 'กำลังส่งข้อมูล...';
       var fd = new FormData(form);
-      fd.append('_subject', 'ข้อความจากเว็บไซต์ แบแลนซ์โปร คอนซัลติ้ง');
+      fd.append('_subject', 'ข้อความจากเว็บไซต์ บาลานซ์โปร คอนซัลติ้ง');
       fd.append('_template', 'table');
       fd.append('_captcha', 'false');
       var sendOk = function () {
@@ -195,14 +195,14 @@
     document.body.appendChild(chatBtn);
     var panel = document.createElement('div');
     panel.id = 'chatPanel';
-    panel.innerHTML = '<div class="cp-head"><div class="cp-av">ว.</div><div><b>แชทกับแบแลนซ์โปร คอนซัลติ้ง</b><span>คุณวิชัย · ออนไลน์ · ตอบภายใน 1 ชม.</span></div></div><div class="cp-body"></div><div class="cp-quick"><button data-q="svc">📋 บริการของเรา</button><button data-q="price">💰 ราคา</button><button data-q="promo">🎁 โปรโมชัน</button><button data-q="contact">☎️ ติดต่อ</button></div><div class="cp-foot"><a class="btn btn-line" href="' + CONFIG.LINE_URL + '" target="_blank" rel="noopener">แชท Line</a><a class="btn btn-primary" href="tel:0819949980">โทร 081-994-9980</a></div>';
+    panel.innerHTML = '<div class="cp-head"><div class="cp-av">ว.</div><div><b>แชทกับบาลานซ์โปร คอนซัลติ้ง</b><span>คุณวิชัย · ออนไลน์ · ตอบภายใน 1 ชม.</span></div></div><div class="cp-body"></div><div class="cp-quick"><button data-q="svc">📋 บริการของเรา</button><button data-q="price">💰 ราคา</button><button data-q="promo">🎁 โปรโมชัน</button><button data-q="contact">☎️ ติดต่อ</button></div><div class="cp-foot"><a class="btn btn-line" href="' + CONFIG.LINE_URL + '" target="_blank" rel="noopener">แชท Line</a><a class="btn btn-primary" href="tel:0819949980">โทร 081-994-9980</a></div>';
     document.body.appendChild(panel);
     var cpBody = panel.querySelector('.cp-body');
     function bubble(cls, html) {
       var d = document.createElement('div'); d.className = 'cp-msg ' + cls; d.innerHTML = html;
       cpBody.appendChild(d); cpBody.scrollTop = cpBody.scrollHeight;
     }
-    bubble('bot', 'สวัสดีครับ 🙏 ยินดีต้อนรับสู่ <b>แบแลนซ์โปร คอนซัลติ้ง</b> สำนักงานบัญชีออนไลน์ มีอะไรให้ช่วยแนะนำได้เลยครับ');
+    bubble('bot', 'สวัสดีครับ 🙏 ยินดีต้อนรับสู่ <b>บาลานซ์โปร คอนซัลติ้ง</b> สำนักงานบัญชีออนไลน์ มีอะไรให้ช่วยแนะนำได้เลยครับ');
     var replies = {
       svc: 'เรามีบริการครบวงจรครับ 📋<br>• รับทำบัญชี เริ่มต้น 2,500 บาท/เดือน<br>• จดทะเบียนบริษัท / DBD<br>• ตรวจสอบบัญชี (Audit)<br>• อบรม CPD & หลักสูตรบัญชีภาษี<br><a class="m-link" href="' + pre + 'services.html">ดูบริการทั้งหมด →</a>',
       price: 'รับทำบัญชีเริ่มต้นเพียง <b>2,500 บาท/เดือน</b> รวมโปรแกรมบัญชีออนไลน์ฟรี ไม่มีค่าใช้จ่ายแอบแฝงครับ 💰<br><a class="m-link" href="' + pre + 'index.html#pricing">ดูรายละเอียดราคา →</a>',
