@@ -1,0 +1,21 @@
+{
+  "name": "บาลานซ์โปร คอนซัลติ้ง | BalancePro Consulting Co., Ltd.",
+  "short_name": "BalancePro",
+  "description": "สำนักงานบัญชีออนไลน์ รับทำบัญชี ปิดงบการเงิน ยื่นภาษีครบวงจร เริ่มต้น 2,500 บาท/เดือน",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14294e",
+  "icons": [
+    {
+      "src": "images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
